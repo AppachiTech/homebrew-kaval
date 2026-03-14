@@ -1,10 +1,10 @@
 class Kaval < Formula
   desc "Guard your ports. A developer-focused port and process manager TUI."
   homepage "https://www.appachi.tech/kaval/"
-  version "0.0.6"
+  version "0.1.0"
   license "MIT"
-  url "https://downloads.appachi.tech/macos/archive/kav-macos-v0.0.6.tar.gz"
-  sha256 "f72a349e645e4b7255eec08d3a8a609986e56659abda0957fd46b316d6ba179c"
+  url "https://downloads.appachi.tech/macos/archive/kav-macos-v0.1.0.tar.gz"
+  sha256 "e45a5fea268e7594bab90c0899e7cf9e81eb29053be2988e425391be19c88323"
 
   def install
     bin.install "kav"
